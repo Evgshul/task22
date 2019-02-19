@@ -19,7 +19,7 @@ public class OneDemensionalArray {
         getMax(array);
         meanValue(array);
 
-        ArrayList<Long> num =
+
 
     }
 
