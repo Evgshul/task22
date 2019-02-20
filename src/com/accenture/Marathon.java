@@ -7,9 +7,11 @@ public class Marathon {
         int[] times = {341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412, 393, 299,
                 343, 317, 265};
 
-        printResult(names, times);
-        System.out.println("---------------");
+        //printResult(names, times);
+        //System.out.println("---------------");
         printResult2(names, times);
+        printResult3(names, times);
+
     }
 
 
@@ -43,6 +45,16 @@ public class Marathon {
     }
 
 
-}
+    private static void printResult3(String[] n, int[] t) {
 
+        for (int i = 0; i < n.length; i++) {
+            for (int j = 0; j < t.length; j++) {
+
+                if (i == j) System.out.printf("%-9s %2d\n", (n[i]), (t[i]));
+
+
+            }
+        }
+    }
+}
 

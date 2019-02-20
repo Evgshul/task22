@@ -31,7 +31,9 @@ public class Calculator {
                     result = a / b;
                     break;
                 case "0":
+
                     System.out.println("Closing application");
+
                    return;
                 default :
                     System.out.println("Wrong input");
